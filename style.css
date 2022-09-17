@@ -36,7 +36,7 @@ body {
 
 .page {
   width: 210mm;
-  height: 400mm;
+  height: 350mm;
   padding: 10mm;
   margin: 10mm auto;
   border: 1px #ffffff solid;
@@ -74,7 +74,10 @@ header ul {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
+  align-items: center;
 }
 header h1 {
   font-size: 20pt;
@@ -165,10 +168,10 @@ section.xp-other .wrapper:last-of-type {
   margin-bottom: 8px;
 }
 
-/*# sourceMappingURL=style.css.map */
 img {
   width: 200px;
-  }
+  margin-bottom: 10px;
+}
 
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
